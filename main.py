@@ -43,7 +43,6 @@ for n in range(0, nr_symbols):
   alphabet = random.choice(symbols)
   pwd_list.append(alphabet)
 
-print(pwd_list)
 
 # Method 1
 pwd_random = ''
@@ -55,7 +54,6 @@ print(pwd_random)
 
 # Method 2
 random.shuffle(pwd_list)
-print(pwd_list)
 pwd_3 = ''
 for char in pwd_list:
   pwd_3 += char
